@@ -1,22 +1,33 @@
-import logo from './logo.svg';
+import furioza from './pobrane.jfif';
+import scooby from './hej.jfif';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        Repertuar Kinowy
+
+        <img src={furioza} className="App-logo" alt="logo"/>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Tytuł: Furioza
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p2>
+          Gatunek: Akcja, powieść kryminalna
+        </p2>
+        <p3>
+          Godziny Wyświetlania: 20:00, 22:30
+        </p3>
+        <img src={scooby} className="App-logo" alt="logo"/>
+        <p>
+          Tytuł: Scooby Doo! Mystery Inc
+        </p>
+        <p2>
+          Gatunek: Akcja, animowany
+        </p2>
+        <p3>
+          Godziny Wyświetlania: 12:00, 25:30
+        </p3>
       </header>
     </div>
   );
